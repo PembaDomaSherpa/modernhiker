@@ -131,7 +131,7 @@ section.stripe-large h2 {
 }
 .details h3{
     text-align: center;
-    margin-left: 25px;
+    margin-left: 20px;
 }
 .details h5{
     color: #3f3f3f;
@@ -156,12 +156,8 @@ section.stripe-large h2 {
 .details a{
     color: #3f3f3f;
     font-size: 25px;
-    margin: 0 0 16px;
-    padding: 0 15px;
     text-transform: uppercase;
-    text-decoration: none;
     font-family: 'Oswald', arial, sans-serif;
-    font-weight: bold;
     line-height: 1;
     letter-spacing: 1px;
 }
@@ -169,17 +165,15 @@ section.stripe-large h2 {
     position: relative;
     margin-top: -100px;
     left: 40%;
-    border-radius: 50%;
-    font-size: 3em;
+    border-radius: 57%;
     justify-content: center;
-    
 }
-.fa-pencil{
+.fa-pencil-alt{
     background: #1b5b68;
 	color: #000000;
     padding: 20px 20px;
 }
-.fa-pencil:before{
+.fa-pencil-alt:before{
     font-size: 28px;
 }
 .container__images ul{
@@ -198,14 +192,14 @@ section.stripe-large h2 {
     height:100px;
     width:30%;
 }
-.help-list .list-1 h3{
+.list-1 h3{
     text-align: center;
     margin-top: 40px;
     margin-left: auto;
     width: 150px;
     margin-right: auto;
 }
-.help-list .list-1 h4{
+.list-1 h4{
     text-align: center;
     text-decoration: underline;
     margin-top: 55px;
@@ -217,10 +211,11 @@ section.stripe-large h2 {
     border:1px solid white;
     border-width:0 1px 0 1px;
 }
-.list-1
 .fa-book-open{
-    color:black;
-    padding: 50px 20px;
+    padding: 0px 190px;
+}
+.fa-book-open:before{
+    font-size: 20px;
 }
 .container__images{
     position: relative;
@@ -297,20 +292,32 @@ section.stripe-large h2 {
 	color: #1b5b68;
     padding: 11px 12px;
 }
-.fa-facebook {
+.fa-twitter:before{
+    font-size: 25px;
+}
+.fa-facebook-f {
     background: #ffffff;
 	color: #1b5b68;
-    padding: 11px 15px;
+    padding: 11px 18px;
 }
-.fa-google-plus{
+.fa-facebook-f:before{
+    font-size: 25px;
+}
+.fa-google-plus-g{
     color: #1b5b68;
     background: #ffffff;
     padding: 10px 8px;
+}
+.fa-google-plus-g:before{
+    font-size:25px;
 }
 .fa-camera{
     color:#1b5b68;
     background: #ffffff;
     padding:11px 11px;
+}
+.fa-camera:before{
+    font-size: 25px;
 }
 
 

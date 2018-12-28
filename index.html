@@ -21,12 +21,29 @@
             <ul class="main-nav-first">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Blog</a></li>
-                <li><a href="#">Plan</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">Guides</a></li>
+                <li>
+                    <div class="dropdown">
+                        <a class="dropbtn" href="#">Plan<i class="fas fa-caret-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <a class="dropbtn" href="#">Guides<i class="fas fa-caret-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </div>
+                </li>
                 <li><a href="#">Resources</a></li>
                 <li><a href="#">About</a></li>
-                <li><i class="fa fa-shopping-cart"><a href="#">Shop</a></i></li>
+                <li><a href="#"><i class="fa fa-shopping-cart">Shop</a></i></li>
                 <li><a href="#"><i class="fa fa-search"></a></i></li>
             </ul>
             <ul class="main-nav-second">
@@ -46,7 +63,8 @@
         <div class="stripe-large__container">
             <h2>Find a Hike</h2>
             <form action="#" method="post">
-                <input type="text" value="" placeholder="Enter the name of treks,parks and regions" /><a href="#"><i class="fa fa-search"></i></a>
+                <input type="text" value="" placeholder="Enter the name of treks,parks and regions" /><a href="#"><i
+                        class="fa fa-search"></i></a>
             </form>
         </div>
     </section>
@@ -124,17 +142,17 @@
         <div class="item">
             <i class="fas fa-book-open"></i>
             <h3 class="help"><a href="#">Help us what we do the best</a></h3>
-            <span class="donate"><a href="#">Donate</a></span>
+            <a class="donate" href="#">Donate</a>
         </div>
         <div class="item sub">
             <i class="fas fa-book-open"></i>
             <h3 class="help"><a href="#">Get Decked in our Gear</a></h3>
-            <span class="donate"><a href="#">Donate</a></span>
+            <a class="donate" href="#">Donate</a>
         </div>
         <div class="item">
             <i class="fas fa-book-open"></i>
             <h3 class="help"><a href="#">Buy the guidebook</a></h3>
-            <span class="donate"><a href="#">Donate</a></span>
+            <a class="donate" href="#">Donate</a>
         </div>
     </section>
     <section class="container__images">
@@ -161,7 +179,6 @@
             <a href="#"><i class="fas fa-camera circle"></i></a>
             <a href="#"><i class="fab fa-google-plus-g circle"></i></a>
         </div>
-        <div></div>
         <div class="footer-nav">
             <div class="footer1">
                 <ul>
@@ -187,7 +204,7 @@
             <div class="form">
                 <form action="#" method="post">
                     <input type="email" value="" placeholder="Email Address">
-                    <a href="#"><button type="button" value="Send">Send</button></a> 
+                    <a href="#"><button type="button" value="Send">Send</button></a>
                 </form>
             </div>
             <div class="footer4">

@@ -19,11 +19,10 @@ a{
     float: right;
 }
 .main-nav a:hover{
-    background-color: #1b5b68;
-    padding: 12px 16px;
+    color: #646d1c;
 }
 .main-nav-first li, .main-nav-second li{ 
-    padding: 0px 32px;
+    padding:  5px 20px;
     font-size:20px;
 }
 .main-nav-first li{
@@ -33,14 +32,6 @@ a{
     margin-top:-11px;
     padding-left:0px;
 }
-/* /* .main-nav-first li:nth-child(3):after{
-    content: '\25bc';
-    font-size:12px;
-}  
-.main-nav-first li:nth-child(5):after{
-    content: '\25bc';
-    font-size:12px;
-} */
 .dropbtn {
     color: black;
     padding: 10px;
@@ -69,18 +60,11 @@ a{
 .dropdown:hover .dropdown-content {
     display: block;
 }
-.fa-shopping-cart:before{
-    margin-left: 0px;
-    margin-right:10px;
-}
 .fa-shopping-cart:after{
-    margin-left: 30px;
+    margin-left: 35px;
     content: '';
     border: 1px solid black;
     padding: 5px 0;
-}
-.fa-search:before{
-    margin-left:-33px;
 }
 .main-screen ul{
     display:contents;
@@ -127,17 +111,17 @@ section.stripe-large h2 {
     transform: translate(-50%,-50%);
 }
 .stripe-large__container input{
-    padding: 10px 30px 15px 15px;
-    width: 355px;
+    padding: 5px 30px 8px 15px;
+    width: 435px;
 }
 .stripe-large__container .fa-search{
-    margin-left: -4px;
+    margin-left: -25px;
     color:gray;
 }
 .package-list {
     display: flex;
     flex-wrap: wrap;
-    width:925px;
+    width:920px;
     margin-left: 200px;
     justify-content: space-evenly;
     padding:10px;
@@ -156,7 +140,7 @@ section.stripe-large h2 {
 }
 .package-list-details{
     position: relative;
-    border: 1px solid #3f3f3f;;
+    border: 1px solid grey;
     border-width: 0 1px 1px 1px;
     height: 200px;
     width: 290px;
@@ -199,7 +183,6 @@ section.stripe-large h2 {
     margin-top: -100px;
     left: 40%;
     border-radius: 57%;
-    justify-content: center;
 }
 .fa-pencil-alt{
     background: #1b5b68;
@@ -208,11 +191,6 @@ section.stripe-large h2 {
 }
 .fa-pencil-alt:before{
     font-size: 28px;
-}
-.fa-boot{
-    background: #1b5b68;
-	color: #000000;
-    padding: 20px 20px;
 }
 .fa-pencil-alt:before{
     font-size: 28px;
@@ -227,7 +205,6 @@ section.stripe-large h2 {
     height: 180px;
     padding-top: 85px;
     color:white;
-    justify-content: center;
 }
 .help-list .item{
     position: relative;
@@ -286,42 +263,19 @@ section.stripe-large h2 {
 }
 .footer{
     height: 250px;
-    position: relative;
     background: #1b5b68;
 }
 .footer .icons{
-    position: absolute;
-    right:50%;
-    top:15%;
+    position: relative;
+    top:30px;
 }
-.footer-nav .footer1{
-    position: absolute;
-    top: 40%;
-    left: 10%;
+.footer-nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 70px;
+}
+.footer-nav a{
     color:white;
-}
-.footer-nav .footer2{
-    position: absolute;
-    top: 40%;
-    left: 25%;
-    color:white;
-}
-.footer-nav .footer3{
-    position: absolute;
-    top: 40%;
-    left: 40%;
-    color:white;
-}
-.footer-nav .footer4{
-    position: absolute;
-    top:75%;
-    left: 40%;
-    color:white;
-}
-.footer-nav .form{
-    position: absolute;
-    top: 55%;
-    left: 60%;
 }
 .footer-nav input{
     background: #1b5b68;
@@ -331,38 +285,32 @@ section.stripe-large h2 {
 .footer-nav button{
     padding:7px;
 }
+.footer .footer4{
+    color:white;
+    text-align:center;
+}
+.footer .form{
+    padding-top:35px;
+}
+.footer .icons a{
+    color:#1b5b68;
+    font-size: 25px;
+}
 .fa-twitter{
 	background: #ffffff;
-	color: #1b5b68;
     padding: 11px 12px;
-}
-.fa-twitter:before{
-    font-size: 25px;
 }
 .fa-facebook-f {
     background: #ffffff;
-	color: #1b5b68;
     padding: 11px 18px;
 }
-.fa-facebook-f:before{
-    font-size: 25px;
-}
 .fa-google-plus-g{
-    color: #1b5b68;
     background: #ffffff;
     padding: 10px 8px;
 }
-.fa-google-plus-g:before{
-    font-size:25px;
-}
 .fa-camera{
-    color:#1b5b68;
     background: #ffffff;
     padding:11px 11px;
 }
-.fa-camera:before{
-    font-size: 25px;
-}
-
 
 

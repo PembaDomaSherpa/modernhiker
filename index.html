@@ -3,9 +3,8 @@
 
 <head>
     <title>Modern Hiker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-    <!-- <link rel="stylesheet" href="http://www.sitepoint.com/introduction-icon-fonts-font-awesome-icomoon/"> -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -22,14 +21,12 @@
                 <li><a href="#"><i class="fas fa-fw fa-home"></i>Home</a></li>
                 <li><a href="#"><i class="fas fa-blog"></i>Blog</a></li>
                 <li><a href="#"><i class="fa fa-fw fa-envelope"></i>Contact</a></li>
-                <li>
-                    <div class="dropdown">
-                        <a class="dropbtn" href="#">Plan<i class="fas fa-caret-down"></i></a>
-                        <div class="dropdown-content">
-                            <a href="#">Plan A</a>
-                            <a href="#">Plan B</a>
-                            <a href="#">Plan C</a>
-                        </div>
+                <li class="dropdown">
+                    <a class="dropbtn" href="#">Plan<i class="fas fa-caret-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="#">Plan A</a>
+                        <a href="#">Plan B</a>
+                        <a href="#">Plan C</a>
                     </div>
                 </li>
                 <li>
@@ -53,13 +50,11 @@
             </ul>
         </nav>
     </header>
-    <section class="main-screen">
-        <ul>
-            <li><img src="assets/images/a.jpg" alt="images" /></li>
-            <li><img src="assets/images/b.jpg" alt="images" /></li>
-            <li><img src="assets/images/g.jpg" alt="images" /></li>
-        </ul>
-    </section>
+    <div class="main-screen">
+            <figure class="grid-item1"><img src="assets/images/a.jpg" alt="images" /></figure>
+            <figure class="grid-item2"><img src="assets/images/b.jpg" alt="images" /></figure>
+            <figure class="grid-item3"><img src="assets/images/g.jpg" alt="images" /></figure>
+    </div>
     <section class="stripe-large">
         <div class="stripe-large__container">
             <h2>Find a Hike</h2>
@@ -143,7 +138,7 @@
             <h3 class="help"><a href="#">Help us what we do the best</a></h3>
             <a class="donate" href="#">Donate</a>
         </div>
-        <div class="item sub">
+        <div class="item-sub">
             <i class="fas fa-book-open"></i>
             <h3 class="help"><a href="#">Get Decked in our Gear</a></h3>
             <a class="donate" href="#">Donate</a>
@@ -203,7 +198,7 @@
             <div class="form">
                 <form action="#" method="post">
                     <input type="email" value="" placeholder="Email Address">
-                    <a href="#"><button type="button" value="Send">Send</button></a>
+                    <button type="button" value="Send">Send</button>
                 </form>
             </div>
         </div>
@@ -212,4 +207,5 @@
         </div>
     </footer>
 </body>
+
 </html>

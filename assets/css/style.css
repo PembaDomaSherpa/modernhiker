@@ -18,7 +18,6 @@ a{
     
 }
 .header {
-    overflow: hidden;
     padding: 20px 10px;
 }
 .main-nav ul{
@@ -103,7 +102,7 @@ section.stripe-large h2 {
     text-align: center;
 }
 .stripe-large__container input{
-    padding: 5px 30px 8px 15px;
+    padding: 8px 30px 8px 15px;
     width: 435px;
 }
 .stripe-large__container .fa-search{
@@ -125,7 +124,6 @@ section.stripe-large h2 {
 .package-list__item img{
     height: 200px;
     width: 292px;
-    margin-left: -21px;
     object-fit: cover;
 }
 .package-list__item:hover{
@@ -138,8 +136,6 @@ section.stripe-large h2 {
     border-width: 0 1px 1px 1px;
     height: 200px;
     width: 290px;
-    margin-left: -21px;
-    margin-top: -42px;
 }
 .package-list-details .rate{
     position: absolute;
@@ -502,12 +498,15 @@ input, select, textarea {
         padding-left:34px;
     }
     .package-list {
-        flex-direction: row;
         width:100%;
     }
     .package-list__item{
-        padding: 20px;
-        width: 100%;
+        width: 50%;
+        padding-inline-start: 0;
+        padding-inline-end: 0;
+    }
+    .package-list-details .details{
+    
     }
     .circle1{
         position: relative;
@@ -559,7 +558,12 @@ input, select, textarea {
     .fa-book-open::before {
         font-size: 18px;
     }
-    .package-list__item {
-        flex: 50%;
-      }
+}
+@media (min-width:768px) and (max-width:1024px){
+    .main-nav ul{
+        display: flex;
+        justify-content: flex-end;
+        margin:0;
+        padding:0;
+    }
 }

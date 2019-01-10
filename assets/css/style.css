@@ -118,6 +118,7 @@ section.stripe-large h2 {
     margin:0 auto;
 }
 .package-list__item{
+    position: relative;
     padding: 20px;
     width: 250px;
 }
@@ -126,32 +127,24 @@ section.stripe-large h2 {
     width: 292px;
     object-fit: cover;
 }
-.package-list__item:hover{
-    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.08);
-    transition: box-shadow 0.3s ease-in-out;
-}
+
 .package-list-details{
-    position: relative;
     border: 1px solid grey;
     border-width: 0 1px 1px 1px;
     height: 200px;
     width: 290px;
 }
-.package-list-details .rate{
-    position: absolute;
-    left: 19%;
-    top: 85%;
-}
 .package-list-details .type{
-    position: absolute;
+    text-align: center;
+    display: block;
+    padding:38px 0;
     color:#3f3f3f;
-    left: 37%;
-    top: 25%;
+   
 }
 .package-list-details .details{
-    position: absolute;
-    top:40%;
+    display: block;
     text-align: center;
+    margin-top:-25px;
 }
 .fa-heart{
     color:#3f3f3f;
@@ -166,12 +159,15 @@ section.stripe-large h2 {
     letter-spacing: 1px;
 }
 .rate a{
+    display: block;
+    text-align: center;
+    margin-top:45px;
     color:#3f3f3f;
 }
 .circle1{
-    position: relative;
-    margin-top: -100px;
-    left: 40%;
+    position: absolute;
+    left: 45%;
+    top:185px;
     border-radius: 57%;
 }
 .circle{
@@ -497,21 +493,11 @@ input, select, textarea {
     .grid-item2 .right{
         padding-left:34px;
     }
-    .package-list {
-        width:100%;
-    }
     .package-list__item{
-        width: 50%;
-        padding-inline-start: 0;
-        padding-inline-end: 0;
-    }
-    .package-list-details .details{
-    
+        width:25%;
     }
     .circle1{
-        position: relative;
-        left: -40%;
-        border-radius: 57%;
+        left:30%;
     }
     .stripe-large__container input{
         width:50%;

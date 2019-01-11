@@ -80,13 +80,13 @@ a{
     margin-top:-2px;
     margin-bottom:-2px;
 }
+.grid-item2 img:first-child{
+    padding-bottom:3px;
+}
 .grid-item2 img{
     padding-top:2px;
     object-fit: cover;
-    height: 50%;;
-}
-.grid-item img .right{
-    object-fit: cover;
+    height: 50%;
 }
 section.stripe-large {
     background: url(../images/d.jpg);
@@ -163,6 +163,7 @@ section.stripe-large h2 {
     text-align: center;
     margin-top:45px;
     color:#3f3f3f;
+    font-size:20px;
 }
 .circle1{
     position: absolute;
@@ -186,74 +187,39 @@ section.stripe-large h2 {
     flex-wrap: wrap;
 }
 .help-list{
-    display: flex;
     background-color: #646d1c;
-    height: 180px;
+    display: flex;
+    height:140px;
     padding-top: 85px;
+    height: 100px;
     color:white;
 }
 .help-list .item{
-    position: relative;
     width:33.33%;
+    color:white;
+    text-align: center;
+    margin-top: -35px;
+}
+.fa-book-open::before {
+    font-size: 22px;
 }
 .item .help{
-    text-align: center;
-    margin-top: 40px;
     margin-left: auto;
     width: 150px;
     margin-right: auto;
+}
+.item .help a{
+    color:white;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .item .donate{
-    position: absolute;
-    bottom: 25px;
-    left: 45%;
     text-decoration: underline;
-}
-.item a{
     color:white;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.help-list .item-sub{
-    position: relative;
-    width:33.33%;
-}
-.item-sub .help{
-    text-align: center;
-    margin-top: 40px;
-    margin-left: auto;
-    width: 150px;
-    margin-right: auto;
-}
-.item-sub a{
-    font-family: Arial, Helvetica, sans-serif;
-    color:white;
-}
-.item-sub .donate{
-    position: absolute;
-    bottom: 25px;
-    left: 45%;
-    text-decoration: underline;
-}
-.item-sub::before{
-    content: '';
-    border: 1px solid white;
-    padding-bottom:80px;
-}
-.item::before{
-    content: '';
-    border: 1px solid white;
-    padding-bottom:80px;
-}
-.fa-book-open{
-    position: relative;
-    left:46%;
-}
-.fa-book-open::before{
-    font-size: 25px;
+    text-align: center
 }
 .container__images{
     position: relative;
-    padding-top: 20px;
 }
 .container__images ul{
     margin-left: -40px;
@@ -270,8 +236,8 @@ section.stripe-large h2 {
 }
 .container__images h3{
     position: absolute;
-    top: 40%;
     left: 42%;
+    top: 35%;
     color:white;
     font-size:35px;
     text-shadow: 2px 2px gray;
@@ -368,6 +334,9 @@ input, select, textarea {
         float:none;
         display:none;
     }
+    .main-screen{
+        flex-direction: column;
+    }
     .stripe-large__container input{
         width:50%;
     }
@@ -386,10 +355,6 @@ input, select, textarea {
     .footer{
         height:100%;
     }
-    .container__images h3{
-        font-size:20px;
-        
-    }
     .help-list .item{
         width:26%;
     }
@@ -398,9 +363,7 @@ input, select, textarea {
         width:100%;
         align-items: center;
     }
-    .main-screen{
-        flex-direction: column;
-    }
+    
     .grid-item1{
         width:100%;
         padding-left: 0px;
@@ -408,27 +371,15 @@ input, select, textarea {
     }
     .grid-item2{
         flex-direction: row;
-        width:126%;
-        height: 50%;
-        padding-left:0px;
-        padding-right:7px;
-    }
-    .grid-item1 img{
         width:100%;
+        padding-left:0px;
+    }
+    .grid-item2 img:first-child{
+        padding-right:10px;
     }
     .grid-item2 img {
-        width:39%;
+        width:49%;
         padding-top:0;
-    }
-    .grid-item2 .right{
-        padding-left:7px;
-    }
-    .help-list .item , .item-sub{
-        font-size:20px;
-    }
-    
-    .item-sub .help{
-        text-align: center;
     }
     .footer .form{
         display:block;
@@ -444,7 +395,9 @@ input, select, textarea {
         font-size:20px;
     }
     .container__images h3 {
-        left: 35%;
+        top: 40%;
+        left: 20%;
+        font-size:30px;
         text-shadow: 2px 2px grey;
     }
     .container__images img {
@@ -473,6 +426,12 @@ input, select, textarea {
     .main-screen{
         flex-direction: column;
     }
+    .grid-item1 img{
+        width:100%;
+    }
+    .grid-item2 img:first-child{
+        padding-right:10px;
+    }
     .grid-item1{
         width:100%;
         padding-left: 0px;
@@ -480,24 +439,18 @@ input, select, textarea {
     }
     .grid-item2{
         flex-direction: row;
-        width:93%;
+        width:100%;
         padding-left:0px;
     }
-    .grid-item1 img{
-        width:100%;
+    .grid-item2 img:first-child{
+        padding-right:10px;
     }
     .grid-item2 img {
         width:50%;
         padding-top:0;
     }
-    .grid-item2 .right{
-        padding-left:34px;
-    }
-    .package-list__item{
-        width:25%;
-    }
     .circle1{
-        left:30%;
+        left:37%;
     }
     .stripe-large__container input{
         width:50%;
@@ -510,6 +463,21 @@ input, select, textarea {
         flex-direction: column;
         padding:20px 0;
     }
+    .package-list{
+        width:100%;
+    }
+    .package-list__item{
+        width:41%;
+    }
+    .package-list__item img{
+        width: 100%;
+    }
+    .package-list-details{
+        width: 100%;
+    }
+    .grid-item2 img:first-child{
+        padding-right:10px;
+    }
     .footer-nav ul{
         text-align: center;
         padding-inline-start: 0;
@@ -521,19 +489,15 @@ input, select, textarea {
     .footer{
         height:100%;
     }
-    .container__images h3 {
-        left: 35%;
-        text-shadow: 2px 2px grey;
-    }
     .container__images img {
         height: 100%;
         width:100%;
         object-fit: cover;
     }
     .container__images h3{
-        font-size:30px;
-        left:35%;
-        top:45%;
+        font-size: 35px;
+        left: 33%;
+        top: 41%;
     }
     .container__images li{
         width:25%;
@@ -545,11 +509,116 @@ input, select, textarea {
         font-size: 18px;
     }
 }
+
 @media (min-width:768px) and (max-width:1024px){
-    .main-nav ul{
-        display: flex;
-        justify-content: flex-end;
-        margin:0;
-        padding:0;
+    .logo-holder{
+        margin-block-start: 0;
+        margin-block-end: 0;
+        margin-inline-end: 0;
+        margin-inline-start: 0;
+    }
+    .main-screen{
+        flex-direction: column;
+    }
+    .main-nav-first li, .main-nav-second li{ 
+        padding: 15px 12px;
+    }
+    .fa-shopping-cart::after{
+        margin-left: 7px;
+    }     
+    .main-nav i{
+        display: none;
+    } 
+    .grid-item1 img{
+        width:100%;
+    }
+    .grid-item2 img {
+        width:50%;
+        padding-top:0;
+    }
+    .grid-item2 img:first-child{
+        padding-right:10px;
+    }
+    .grid-item1{
+        width:100%;
+        padding-left: 0px;
+        padding-bottom:7px;
+    }
+    .grid-item2{
+        flex-direction: row;
+        width:100%;
+        padding-left:0px;
+    }
+    .grid-item2 img:first-child{
+        padding-right:10px;
+    }
+    
+    .package-list{
+        width:100%;
+    }
+    .package-list__item{
+        width:41%;
+    }
+    .package-list__item img{
+        width: 100%;
+    }
+    .package-list-details{
+        width: 100%;
+    }
+    .help-list a{
+        font-size:16px;
+    }  
+    .fa-book-open::before {
+        font-size: 20px;
     }
 }
+@media (min-width:1025px) and (max-width:1280px){
+    .logo-holder{
+        margin-block-start: 0;
+        margin-block-end: 0;
+        margin-inline-end: 0;
+        margin-inline-start: 0;
+    }
+    .main-screen{
+        flex-direction: column;
+    }
+    .main-nav-first li, .main-nav-second li{ 
+        padding: 15px 15px;
+    }
+    .fa-shopping-cart::after{
+        margin-left: 7px;
+    }
+    .grid-item1 img{
+        width:100%;
+    }
+    .grid-item2 img {
+        width:50%;
+        padding-top:0;
+    }
+    .grid-item2 img:first-child{
+        padding-right:10px;
+    }
+    .grid-item1{
+        width:100%;
+        padding-left: 0px;
+        padding-bottom:7px;
+    }
+    .grid-item2{
+        flex-direction: row;
+        width:100%;
+        padding-left:0px;
+    }
+    .grid-item2 img:first-child{
+        padding-right:10px;
+    }
+    .help-list a{
+        font-size:20px;
+    } 
+    .item .help a{
+        font-size: 20px;
+    }
+    .fa-book-open::before {
+        font-size: 22px;
+    }
+}
+

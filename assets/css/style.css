@@ -24,7 +24,7 @@ a{
     display: flex;
     justify-content: flex-end;
     margin:0;
-    padding:0;
+    /* padding:0; */
 }
 .main-nav a:hover{
     color: #646d1c;
@@ -86,11 +86,12 @@ a{
 .grid-item2 img{
     padding-top:2px;
     object-fit: cover;
-    height: 50%;
+    height: 49.2%;
 }
 section.stripe-large {
     background: url(../images/d.jpg);
     height: 400px;
+    margin-top: -28px;
 }
 section.stripe-large h2 {
     font-family:Roboto;
@@ -425,10 +426,10 @@ input, select, textarea {
     #main-nav
     {
         display: block;
-        position: relative;
-        top: 50px;
-        left: 90px;
         z-index: 1;
+        position: relative;
+        top: 10%;
+        left: 17%;
     }
 
     #main-nav input
@@ -436,9 +437,6 @@ input, select, textarea {
         display: block;
         width: 40px;
         height: 32px;
-        position: absolute;
-        top: -7px;
-        left: -5px;
         cursor: pointer;
         opacity: 0; /* hide this */
         z-index: 2; /* and place it over the hamburger */

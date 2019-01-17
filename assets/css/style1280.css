@@ -25,10 +25,14 @@ nav .nav-bottom {
 .grid-item2 img {
     width: 50%;
     padding-top: 0;
+    height:370px;
+    object-fit: cover;
 }
 
 .grid-item2 img:first-child {
     padding-right: 10px;
+    height:370px;
+    object-fit: cover;
 }
 
 .grid-item1 {
@@ -41,10 +45,6 @@ nav .nav-bottom {
     flex-direction: row;
     width: 100%;
     padding-left: 0px;
-}
-
-.grid-item2 img:first-child {
-    padding-right: 10px;
 }
 
 .help-list a {

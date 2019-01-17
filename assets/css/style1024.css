@@ -35,6 +35,8 @@ nav .nav-bottom {
 .grid-item2 img {
     width: 50%;
     padding-top: 0;
+    height:280px;
+    object-fit: cover;
 }
 
 .grid-item2 img:first-child {
@@ -54,6 +56,8 @@ nav .nav-bottom {
 }
 
 .grid-item2 img:first-child {
+    height:280px;
+    object-fit: cover;
     padding-right: 10px;
 }
 
@@ -70,7 +74,7 @@ nav .nav-bottom {
 }
 
 .package-list-details {
-    width: 100%;
+    width: 99.4%;
 }
 
 .help-list a {

@@ -57,7 +57,7 @@
                 <li><a href="#"><i class="fa fa-fw fa-user"></i>&nbsp;Login</a></li>
                 <li><a href="#">Register</a></li>
             </ul>
-            <a href="javascript:void(0);" style="font-size:25px;" class="icon" onclick="myFunction()">&#9776;</a>
+            <a href="javascript:void(0);" style="font-size:25px;" class="icon" id="hamburgermenu" onclick="myFunction()">&#9776;</a>
         </nav>
     </header>
     <div class="main-screen">
@@ -149,12 +149,12 @@
             <i class="fas fa-book-open"></i>
             <h3 class="help"><a href="#">Help us what we do the best</a></h3>
             <a class="donate" href="#">Donate</a>
-        </div><hr>
+        </div><div class="divider"></div>
         <div class="item ">
             <i class="fas fa-book-open"></i>
             <h3 class="help"><a href="#">Get Decked in our Gear</a></h3>
             <a class="donate" href="#">Donate</a>
-        </div><hr>
+        </div><div class="divider"></div>
         <div class="item">
             <i class="fas fa-book-open"></i>
             <h3 class="help"><a href="#">Buy the guidebook</a></h3>
@@ -227,6 +227,12 @@
     <script>
         function myFunction() {
             var x = document.getElementById("myTopnav");
+            var y=document.getElementById("hamburgermenu");
+            if( y.innerHTML.charCodeAt(0)=="9776"){
+                y.innerHTML="&#10005;";
+            }else{
+                y.innerHTML="&#9776;";
+            }
             if (x.className === "topnav") {
                 x.className += " responsive";
             } else {

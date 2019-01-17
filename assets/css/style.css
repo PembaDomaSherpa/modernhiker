@@ -211,8 +211,9 @@ section.stripe-large h2 {
 }
 
 .package-list__item img {
-    height: 200px;
+    height: 175px;
     width: 292px;
+    object-fit: cover;
 }
 
 .package-list-details {
@@ -261,8 +262,8 @@ section.stripe-large h2 {
 
 .circle1 {
     position: absolute;
-    left: 41%;
-    top: 185px;
+    left: 40%;
+    top: 160px;
     border-radius: 57%;
 }
 

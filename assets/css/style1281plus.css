@@ -10,10 +10,8 @@
     float: left;
 }
 
-.topnav ul li a {
-    padding: 14px 30px;
-}
-
-nav .nav-bottom {
-    padding-left: 60%;
+.topnav ul li a , .dropdown .dropbtn{
+    color: black;
+    padding: 14px 16px;
+    font-size: 25px;
 }

@@ -17,7 +17,8 @@ nav a {
 .topnav ul li a,
 .dropdown .dropbtn {
     padding: 14px 10px;
-    font-size: 13px;
+    color: black;
+    font-size: calc(13px + (20 - 13) * ((100vw - 768px) / (1024 - 768)));
 }
 
 nav .nav-bottom {
@@ -28,9 +29,6 @@ nav .nav-bottom {
     flex-direction: column;
 }
 
-.grid-item1 img {
-    width: 100%;
-}
 
 .grid-item2 img {
     width: 50%;
@@ -44,9 +42,7 @@ nav .nav-bottom {
 }
 
 .grid-item1 {
-    width: 100%;
-    padding-left: 0px;
-    padding-bottom: 7px;
+    padding-bottom: 3px;
 }
 
 .grid-item2 {
@@ -61,7 +57,7 @@ nav .nav-bottom {
     padding-right: 10px;
 }
 
-.package-list {
+/* .package-list {
     width: 85%;
 }
 
@@ -75,12 +71,30 @@ nav .nav-bottom {
 
 .package-list-details {
     width: 99.4%;
+} */
+.package-list__item {
+    width: 45%;
+    padding: 0 15px 30px 15px;
 }
 
-.help-list a {
-    font-size: 16px;
+.package-list {
+    width: 660px;
 }
 
-.fa-book-open::before {
-    font-size: 20px;
+.package-list__item img {
+    width: 100%;
 }
+
+.package-list-details {
+    width:99.2%;
+}
+
+.rate a {
+    font-size:20px;
+}
+
+.details a {
+    font-size: 25px;
+}
+
+

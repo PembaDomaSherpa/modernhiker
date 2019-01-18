@@ -109,6 +109,10 @@ a {
     color: black;
 }
 
+.logo-holder a:hover {
+    display: none;
+}
+
 nav {
     margin: 1.2em 0;
 }
@@ -211,14 +215,13 @@ section.stripe-large h2 {
 }
 
 .package-list__item img {
-    height: 175px;
+    height: 200px;
     width: 292px;
     object-fit: cover;
 }
 
 .package-list-details {
     border: 1px solid grey;
-    border-width: 0 1px 1px 1px;
     width: 290px;
     margin-top: -4px;
 }
@@ -257,7 +260,6 @@ section.stripe-large h2 {
     color: #3f3f3f;
     font-size: 20px;
     padding-bottom: 10px;
-
 }
 
 .circle1 {
@@ -284,31 +286,23 @@ section.stripe-large h2 {
 .help-list {
     background-color: #646d1c;
     display: flex;
-    padding-top: 80px;
     height: 100px;
-    color: white;
-    margin-bottom:8px;
+    margin-bottom: 8px;
+    padding: 50px 0;
 }
 
 .help-list .item {
     width: 33.33%;
     color: white;
     text-align: center;
-    margin-top: -50px;
 }
-/* .item:nth-child(2){
-    border-left:1px solid white; 
-    border-right:1px solid white; 
-    height:100px;
-} */
-.divider{
-    border-left:1px solid white; 
-    border-right:1px solid white; 
-    height:100px;
-    margin-top:-40px;
+
+.divider {
+    border: 1px solid white;
 }
+
 .fa-book-open::before {
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .item .help {
@@ -328,9 +322,11 @@ section.stripe-large h2 {
     color: white;
     text-align: center
 }
-.help-list a:hover{
-    color:gray;
+
+.help-list a:hover {
+    color: gray;
 }
+
 .container__images ul {
     display: flex;
     flex-wrap: wrap;
@@ -357,10 +353,10 @@ section.stripe-large h2 {
 
 .container__images h3 {
     position: absolute;
-    left: 40%;
-    top: 41%;
+    left: 39%;
+    top: 36%;
     color: white;
-    font-size: 35px;
+    font-size: 50px;
     text-shadow: 2px 2px gray;
 }
 
@@ -414,7 +410,7 @@ section.stripe-large h2 {
 }
 
 .footer .form {
-    padding-top: 35px;
+    padding-top: 45px;
     color: black;
 }
 
@@ -438,15 +434,22 @@ section.stripe-large h2 {
     color: gray;
 }
 
+.footer-nav li {
+    padding: 3px;
+}
+
 .footer .icons .circle:hover {
     background: #1b5b68;
 }
-.footer-nav a:hover{
-    color:grey;
+
+.footer-nav a:hover {
+    color: grey;
 }
-.footer .footer4:hover{
-    color:grey;
+
+.footer .footer4:hover {
+    color: grey;
 }
+
 .fa-google-plus-g {
     background: #ffffff;
     padding: 10px 8px;
@@ -456,9 +459,11 @@ section.stripe-large h2 {
     background: #ffffff;
     padding: 11px 11px;
 }
-.form input::placeholder{
-    color:white;
+
+.form input::placeholder {
+    color: white;
 }
+
 ::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
     color: gray;

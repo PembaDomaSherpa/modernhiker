@@ -90,7 +90,7 @@ nav .nav-bottom {
 .grid-item2 img {
     width: 49.5%;
     height:175px;
-    padding-top: 0;
+    padding-top: 0px;
 }
 
 section.stripe-large h2 {
@@ -127,7 +127,7 @@ section.stripe-large {
 }
 
 .circle1 {
-    top: 40%;
+    top: 43%;
 }
 
 .help-list .item {
@@ -164,9 +164,11 @@ section.stripe-large {
     font-size: 30px;
 }
 
-
 .footer-nav {
     flex-direction: column;
+    width:100%;
+    margin:0;
+    padding:0;
 }
 
 .footer-nav ul {
@@ -177,8 +179,8 @@ section.stripe-large {
 }
 
 .footer .form {
-    text-align: center;
-    padding: 10px;
+    padding-top:0px;
+    margin: 10px 0px 0 28px;
 }
 
 .footer-nav .footer1 {
@@ -191,4 +193,11 @@ section.stripe-large {
 
 .footer-nav .footer3 {
     padding: 10px;
+}
+.footer-content{
+    display:block;
+}
+.footer-content .form{
+    display: flex;
+    justify-content: center;
 }

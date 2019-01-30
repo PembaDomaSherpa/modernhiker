@@ -29,11 +29,10 @@ nav .nav-bottom {
     flex-direction: column;
 }
 
-
 .grid-item2 img {
     width: 50%;
     padding-top: 0;
-    height:280px;
+    height: 280px;
     object-fit: cover;
 }
 
@@ -52,7 +51,7 @@ nav .nav-bottom {
 }
 
 .grid-item2 img:first-child {
-    height:280px;
+    height: 280px;
     object-fit: cover;
     padding-right: 10px;
 }
@@ -72,6 +71,7 @@ nav .nav-bottom {
 .package-list-details {
     width: 99.4%;
 } */
+
 .package-list__item {
     width: 45%;
     padding: 0 15px 30px 15px;
@@ -86,15 +86,27 @@ nav .nav-bottom {
 }
 
 .package-list-details {
-    width:99.2%;
+    width: 99.2%;
 }
 
 .rate a {
-    font-size:20px;
+    font-size: 20px;
 }
 
 .details a {
     font-size: 25px;
 }
 
+.container__images h3 {
+    font-size: 35px;
+    left: 35%;
+    top: 28%;
+}
 
+.circle1 {
+    left: 40%;
+    top: 165px;
+}
+.footer-nav{
+    width: 63%;
+}

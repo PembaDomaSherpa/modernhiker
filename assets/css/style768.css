@@ -1,6 +1,6 @@
 nav ul {
-    width:250px;
-    margin:0 0 0 auto;
+    width: 250px;
+    margin: 0 0 0 auto;
     background-color: #333;
     margin-block-start: 0;
     margin-block-end: 0;
@@ -73,7 +73,6 @@ nav .nav-bottom {
     flex-direction: column;
 }
 
-
 .grid-item2 {
     flex-direction: row;
     width: 100%;
@@ -81,7 +80,7 @@ nav .nav-bottom {
 }
 
 .grid-item2 img:first-of-type {
-    padding: 0px 3px 0 0;
+    padding: 5px 7px 0 0;
 }
 
 .grid-item1 img {
@@ -90,12 +89,12 @@ nav .nav-bottom {
 
 .grid-item2 img {
     width: 49.5%;
-    height:220px;
-    padding-top: 0;
+    height: 220px;
+    padding-top: 5px;
 }
 
 .circle1 {
-    top: 40%;
+    top: 34%;
     left: 37%;
 }
 
@@ -107,7 +106,6 @@ section.stripe-large h2 {
 section.stripe-large {
     height: 170px;
 }
-
 
 .stripe-large__container input {
     padding: 8px 75px 8px 5px;
@@ -128,11 +126,12 @@ section.stripe-large {
 }
 
 .package-list__item img {
+    height:165px;
     width: 100%;
 }
 
 .package-list-details {
-    width:99.2%;
+    width: 99.2%;
 }
 
 .rate a {
@@ -161,31 +160,27 @@ section.stripe-large {
     width: 25%;
 }
 
-
 .footer-nav ul {
     margin-block-end: 0;
     text-align: center;
 }
-
-
-.footer .form {
-    display: none;
-}
-
-.footer .form1 {
-    display: block;
-    text-align: center;
-    padding: 10px;
+.footer-nav{
+    width: 100%;
 }
 
 .footer button {
     padding: 7px;
 }
-
-.footer input {
-    background: #1b5b68;
-    padding: 7px 20px 7px 8px;
-    color: white;
+.footer .icons{
+    padding:40px;
 }
-
-
+.footer-content{
+    display:block;
+}
+.footer-content .form{
+    display: flex;
+    justify-content: center;
+}
+.footer-content .form{
+    padding-top:40px;
+}

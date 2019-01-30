@@ -24,8 +24,8 @@ nav li a {
 }
 
 .topnav {
-    overflow: hidden;
     background-image: url('../images/s.jpg');
+    overflow: hidden;
 }
 
 .topnav figure {
@@ -107,10 +107,6 @@ nav a {
 a {
     text-decoration: none;
     color: black;
-}
-
-.logo-holder a:hover {
-    display: none;
 }
 
 nav {
@@ -265,7 +261,7 @@ section.stripe-large h2 {
 .circle1 {
     position: absolute;
     left: 40%;
-    top: 160px;
+    top: 185px;
     border-radius: 57%;
 }
 
@@ -353,8 +349,8 @@ section.stripe-large h2 {
 
 .container__images h3 {
     position: absolute;
-    left: 39%;
-    top: 36%;
+    left: 38%;
+    top: 120px;
     color: white;
     font-size: 50px;
     text-shadow: 2px 2px gray;
@@ -362,7 +358,6 @@ section.stripe-large h2 {
 
 .container__images h3:hover {
     color: pink;
-    font-size: 35px;
     text-shadow: 2px 2px black;
 }
 
@@ -375,11 +370,14 @@ section.stripe-large h2 {
     padding-top: 25px;
     text-align: center;
 }
-
+.footer-content{
+    display:flex;
+}
 .footer-nav {
     display: flex;
     justify-content: space-evenly;
-    padding: 15px;
+    padding: 5px;
+    width:75%;
 }
 
 .footer-nav a {
@@ -390,16 +388,11 @@ section.stripe-large h2 {
     padding-inline-start: 0;
 }
 
-.footer-nav input {
+.footer input {
     background: #1b5b68;
     padding: 7px 20px 7px 8px;
     color: white;
 }
-
-.footer .form1 {
-    display: none;
-}
-
 .footer-nav button {
     padding: 7px;
 }
@@ -408,10 +401,8 @@ section.stripe-large h2 {
     color: white;
     text-align: center;
 }
-
-.footer .form {
-    padding-top: 45px;
-    color: black;
+.footer-content .form{
+    padding-top:65px;
 }
 
 .footer .icons a {
@@ -433,13 +424,11 @@ section.stripe-large h2 {
 .footer .icons a:hover {
     color: gray;
 }
-
+.footer-nav{
+    display: flex;
+}
 .footer-nav li {
     padding: 3px;
-}
-
-.footer .icons .circle:hover {
-    background: #1b5b68;
 }
 
 .footer-nav a:hover {
@@ -493,4 +482,5 @@ textarea {
 [type*="button"] {
     color: black;
     cursor: pointer;
+    padding:7px;
 }

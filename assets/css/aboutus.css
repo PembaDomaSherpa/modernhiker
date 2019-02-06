@@ -50,14 +50,21 @@ nav a {
     background-color: #4CAF50;
     color: white;
 }
+.about{
+    background-color: antiquewhite;
+    margin-top: -32px;
+}
 h3{
     text-align: center;
     font-size: 2rem;
     color: rgb(110, 33, 49);
     text-decoration: underline;
+    padding-top: 28px;
+
 }
 .about p{
     margin:0 85px;
+    padding-bottom: 30px;
 }
 .topnav .icon {
     display: none;
@@ -135,4 +142,110 @@ nav .nav-bottom li {
 
 .nav-top li:nth-child(11) {
     display: none;
+}
+.footer {
+    height: 100%;
+    background: #1b5b68;
+}
+
+.footer .icons {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+    width: 75%;
+}
+
+.footer-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer1 ul {
+    padding-inline-start: 0;
+}
+
+.footer input {
+    background: #1b5b68;
+    padding: 7px 20px 7px 8px;
+    color: white;
+}
+
+.footer-nav button {
+    padding: 7px;
+}
+
+.footer-nav ul {
+    background-color: none;
+}
+
+.footer .footer4 {
+    color: white;
+    text-align: center;
+}
+
+.footer-content .form {
+    padding-top: 58px;
+}
+
+.footer .icons a {
+    color: #1b5b68;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.fa-twitter {
+    background: #ffffff;
+    padding: 11px 12px;
+}
+
+.fa-facebook-f {
+    background: #ffffff;
+    padding: 11px 18px;
+}
+
+.footer .icons a:hover {
+    color: gray;
+}
+
+.footer-nav {
+    display: flex;
+}
+
+.footer-nav li {
+    padding: 3px;
+}
+
+.footer-nav a:hover {
+    color: grey;
+}
+
+.footer .footer4:hover {
+    color: grey;
+}
+
+.fa-google-plus-g {
+    background: #ffffff;
+    padding: 10px 8px;
+}
+
+.fa-camera {
+    background: #ffffff;
+    padding: 11px 11px;
+}
+
+.form input::placeholder {
+    color: white;
+}
+
+.circle {
+    border-radius: 57%;
 }

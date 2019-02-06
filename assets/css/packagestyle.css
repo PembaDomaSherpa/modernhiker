@@ -14,18 +14,20 @@ nav ul {
 }
 
 .topnav {
-    background-color: paleturquoise;
+    background-color:rgb(100, 171, 204);
 }
 
 .topnav ul li a {
     color: black;
     text-align: center;
-    padding: 14px 82px;
+    padding: 14px 72px;
     text-decoration: none;
 }
 
 .headermenu {
     display: flex;
+    height: 40px;
+    font-size:20px;
 }
 
 
@@ -53,7 +55,7 @@ nav ul {
 
 .topnav a:hover,
 .menu:hover .sub-menu {
-    background-color: paleturquoise;
+    background-color:rgb(100, 171, 204);
     color: white;
 }
 

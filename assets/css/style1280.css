@@ -10,7 +10,7 @@
 .dropdown .dropbtn {
     padding: 14px 11px;
     color: black;
-    font-size: calc(20px + (25 - 20) * ((100vw - 1025px) / (1280 - 1025)));
+    font-size: calc(17px + (25 - 17) * ((100vw - 1025px) / (1280 - 1025)));
 }
 
 nav .nav-bottom {

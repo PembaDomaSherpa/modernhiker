@@ -76,11 +76,11 @@ nav .nav-bottom {
 .grid-item2 {
     flex-direction: row;
     width: 100%;
-    padding-left: 0px;
+    padding-left: 5px;
 }
 
 .grid-item2 img:first-of-type {
-    padding: 0px 3px 0 0;
+    padding: 5px 3px 0 0;
 }
 
 .grid-item1 img {
